@@ -6,5 +6,5 @@ module.exports = {
       }
     }
   },
-  publicPath: '<TestVuejsTypeScript>'
+  publicPath: '<Test-Vue.sj-and-Typescript>'
 }
