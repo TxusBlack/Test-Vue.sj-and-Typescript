@@ -6,5 +6,7 @@ module.exports = {
       }
     }
   },
-  publicPath: '<Test-Vue.sj-and-Typescript>'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Test-Vue.sj-and-Typescript/'
+    : '/'
 }
